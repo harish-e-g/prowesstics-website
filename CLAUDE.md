@@ -18,14 +18,14 @@ standing rules so no session depends on chat history.
 - Add a `CHANGELOG.md` entry under `[Unreleased]` for every user-visible change.
 - Never force-push to shared branches. Never rewrite someone else's commits.
 - After pushing `main`, check the Pages deploy:
-  `gh api repos/harish-e-g/prowesstics-web/actions/runs --jq '.workflow_runs[0] | {status,conclusion}'`
+  `gh api repos/harish-e-g/prowesstics-website/actions/runs --jq '.workflow_runs[0] | {status,conclusion}'`
   If it failed for a GitHub-side reason, rerun the failed jobs.
 
 ## Stack (this repo)
 - Next.js 15 App Router, React 19, TypeScript strict, static export.
-- Build for Pages: `STATIC_EXPORT=1 NEXT_PUBLIC_BASE_PATH=/prowesstics-web npm run build`.
+- Build for Pages: `STATIC_EXPORT=1 NEXT_PUBLIC_BASE_PATH=/prowesstics-website npm run build`.
 - Deploy: `.github/workflows/deploy-pages.yml` on push to `main`.
-  Live preview: https://harish-e-g.github.io/prowesstics-web/
+  Live preview: https://harish-e-g.github.io/prowesstics-website/
 - All asset URLs go through `asset()` in `lib/image-loader.ts` (base path aware).
 - Content lives in `content/site.ts`; sections in `components/Sections.tsx`.
 - Generators: `tools/visuals` (image overlays), `tools/video` (film edits), `tools/tech-logos`.

@@ -1,6 +1,6 @@
 # Builds the site as static files and publishes it to GitHub Pages on every push to main.
 # One-time setup: Settings > Pages > Source: "GitHub Actions".
-# Live at https://harish-e-g.github.io/prowesstics-web/ until a custom domain is added.
+# Live at https://harish-e-g.github.io/prowesstics-website/ until a custom domain is added.
 # With a custom domain, set BASE_PATH below to "" (empty).
 
 name: Deploy to GitHub Pages
@@ -20,7 +20,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  BASE_PATH: /prowesstics-web
+  BASE_PATH: /prowesstics-website
 
 jobs:
   build:

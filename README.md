@@ -147,7 +147,7 @@ prowesstics-web/
 
 ### 5.2 Clone and run
 ```bash
-git clone https://github.com/<your-github-username>/prowesstics-web.git
+git clone https://github.com/<your-github-username>/prowesstics-website.git
 cd prowesstics-web
 npm install
 npm run dev
@@ -248,7 +248,7 @@ Place the video in `public/video/` and set `companyFilm` in `content/images.ts`,
 ## 11. Deployment
 
 ### 11.1 GitHub Pages (live)
-The site is published to **https://harish-e-g.github.io/prowesstics-web/** by `.github/workflows/deploy-pages.yml`.
+The site is published to **https://harish-e-g.github.io/prowesstics-website/** by `.github/workflows/deploy-pages.yml`.
 1. One-time: **Settings > Pages > Build and deployment > Source: GitHub Actions**.
 2. Every push to `main` builds a static copy and publishes it in about two minutes. Progress shows under the **Actions** tab.
 3. Custom domain: enter it under **Settings > Pages > Custom domain**, add the DNS records GitHub shows at the registrar, then set `BASE_PATH: ""` in the workflow so the site is served from the domain root.

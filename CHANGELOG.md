@@ -15,7 +15,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
 - Services and Solutions drop-down menus in the top bar, plus a mobile menu.
 - `/services/` page listing all eight services as editorial rows, each with its own link anchor.
 - DEO Suite (Data Engineering Optimization) image with pipeline DAG and runtime readouts (`tools/visuals/make_deo.py`).
-- GitHub Pages publishing: `.github/workflows/deploy-pages.yml` builds and deploys on every push to `main`; live at https://harish-e-g.github.io/prowesstics-web/.
+- GitHub Pages publishing: `.github/workflows/deploy-pages.yml` builds and deploys on every push to `main`; live at https://harish-e-g.github.io/prowesstics-website/.
 - `NEXT_PUBLIC_BASE_PATH` support and a static image loader (`lib/image-loader.ts`) so every image, logo and lightbox view works when the site is served from a sub-folder.
 - Technical, data-driven visuals across every image slot: detection boxes with confidence, 2D-to-wireframe conversion, measurements, thermal and footfall heat maps, data panels, event streams and part genealogy.
 - Service card visuals combining real hardware cut-outs with live data callouts.
