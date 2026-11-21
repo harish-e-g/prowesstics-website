@@ -13,7 +13,7 @@ Fill these in on GitHub once the repository exists. Each value is ready to paste
 ## General
 | Setting | Value |
 |---|---|
-| Repository name | `prowesstics-web` |
+| Repository name | `prowesstics-website` |
 | Visibility | Private |
 | Default branch | `main` |
 | Features | Issues on. Wiki off. Projects on. Discussions off. |

@@ -1,7 +1,7 @@
 # Security policy
 
 ## Reporting a vulnerability
-Email **sales@prowesstics.com** with the subject "Security: prowesstics-web". Include the affected URL or file, steps to reproduce and the impact you observed. Please do not open a public issue for security problems.
+Email **sales@prowesstics.com** with the subject "Security: prowesstics-website". Include the affected URL or file, steps to reproduce and the impact you observed. Please do not open a public issue for security problems.
 
 We acknowledge reports within two business days and share a fix plan once the issue is confirmed.
 

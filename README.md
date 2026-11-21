@@ -101,7 +101,7 @@ No UI framework, CSS framework or tracking script is bundled. The first load of 
 ## 4. Project structure
 
 ```
-prowesstics-web/
+prowesstics-website/
 ├── app/
 │   ├── layout.tsx          Root layout: font, metadata, Open Graph, viewport
 │   ├── page.tsx            Homepage section order and Organization structured data
@@ -147,8 +147,8 @@ prowesstics-web/
 
 ### 5.2 Clone and run
 ```bash
-git clone https://github.com/<your-github-username>/prowesstics-website.git
-cd prowesstics-web
+git clone https://github.com/harish-e-g/prowesstics-website.git
+cd prowesstics-website
 npm install
 npm run dev
 ```

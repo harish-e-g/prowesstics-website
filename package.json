@@ -1,5 +1,5 @@
 {
-  "name": "prowesstics-web",
+  "name": "prowesstics-website",
   "version": "1.0.0",
   "private": true,
   "description": "Official corporate website of Prowesstics IT Services Pvt. Ltd.: data engineering, AI, computer vision and factory automation. Built with Next.js 15, React 19 and TypeScript.",
